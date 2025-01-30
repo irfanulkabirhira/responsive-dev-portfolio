@@ -15,6 +15,10 @@
     margin: 0 auto;
 }
 
+.bar{
+    display: none;
+}
+
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -257,6 +261,14 @@ textarea{
 @media screen and (max-width: 576px) {
     body{
         padding: 10px;
+    }
+
+    .nav-links, .btn{
+        display: none;
+    }
+
+    .bar{
+        display: block;
     }
 
     .hero-content{
