@@ -1,0 +1,255 @@
+.text-primary{
+    color: rgb(253, 110, 10);
+}
+
+.text-secondary{
+    color: rgb(117, 117, 117);
+}
+
+.navbar{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91.666667%; /* 11/12 = 91.666667% */
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: bolder;
+    color: black;
+    margin-left: 25px;
+}
+
+.nav-title-part{
+    color: rgb(253, 110, 10);
+}
+
+.nav-links{
+    margin-right: 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: rgb(253, 110, 10);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-content{
+    width: 570px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.hero-hi{
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+}
+
+.name{
+    font-size: 85px;
+    margin-top: -30px;
+    margin-bottom: -2px;
+}
+
+.font{
+    margin-right: 5px;
+}
+
+.btn-2{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid rgb(253, 110, 10);
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.body{
+    padding-top: 25px;
+}
+
+.about-content{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 160px;
+    padding-right: 160px;
+    background-color: rgb(255, 248, 243);
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    border-radius: 20px;
+}
+
+.about{
+    width: 827px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info{
+    display: flex;
+}
+
+.about-me{
+    font-size: 35px;
+    margin-bottom: -5px;
+}
+
+.desc{
+    text-align: center;
+}
+
+
+.about>div>div{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.what-i-do-content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.what-i-do{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.what-i-do-skills-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-i-do-skills{
+    width: 200px;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.summary-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.summary-inner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.summary-heading{
+    font-size: 35px;
+}
+
+.my-title{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+}
+
+.education-one{
+    width: 650px;
+}
+
+.experience-one{
+    width: 650px;
+}
+
+.my-education{
+    margin-right: 20px;
+}
+
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.education-one, .experience-one>h3{
+    color: rgb(71, 71, 71);
+}
+
+.footer{
+    background-color: rgb(255, 248, 243);
+    padding: 100px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lets-connect{
+    width: 560px;
+}
+
+.message-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 349px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea{
+    padding-top: 18px;
+    padding-bottom: 134px;
+    padding-right: 365px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.social-icons>img{
+    margin-right: 10px;
+}
+
