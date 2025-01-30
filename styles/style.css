@@ -253,3 +253,24 @@ textarea{
     margin-right: 10px;
 }
 
+
+@media screen and (max-width: 576px) {
+    body{
+        padding: 10px;
+    }
+
+    .hero-content{
+        width: 100%;
+    }
+
+    .dev-pic{
+        width: 100%;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
