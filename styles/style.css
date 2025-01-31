@@ -303,4 +303,17 @@ textarea {
     justify-content: center;
     align-items: center;
   }
+
+  .what-i-do{
+    width: 100%;
+  }
+
+  .what-i-do-skills-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .what-i-do-skills{
+    margin-bottom: 10px;
+  }
 }
