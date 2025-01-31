@@ -330,4 +330,17 @@ textarea {
   .my-education, .education-one, .experience-one{
     width: 100%;
   }
+
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lets-connect {
+    width: 100%;
+  }
+
+  input, textarea{
+    padding: 30px;
+  }
 }
