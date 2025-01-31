@@ -291,10 +291,7 @@ textarea {
     width: 100%;
   }
   .about-content {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 0px;
   }
 
   .about-info {
