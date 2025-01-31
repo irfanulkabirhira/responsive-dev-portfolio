@@ -316,4 +316,18 @@ textarea {
   .what-i-do-skills{
     margin-bottom: 10px;
   }
+
+  .summary-heading {
+    font-size: 30px;
+  }
+
+  .summary-inner-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my-education, .education-one, .experience-one{
+    width: 100%;
+  }
 }
